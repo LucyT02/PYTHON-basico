@@ -1,0 +1,5 @@
+1. Leia e amarzene o numero n que deseja multiplicar por 9 #Entrada
+2.subtrai n-1 e amarzene como o primeiro digito n1 #processamento
+3. subtrai 10-n e amarneze como segundo digito n2 #processamento
+4. realize a expressao (n1 x 10) + n1
+5. apresenta o resultado final e encerre o progama #saida
