@@ -1,0 +1,5 @@
+genero = input("Digite o gênero (m ou f): ")
+idade= int (input("Digite a idade: "))
+tempo_anos= int(input("Digite o tempo de experiência de trabalhoem anos: "))
+pode_concorrer = (genero == "f" and idade >=60 ) or (genero == "m" and idade >= 65) or (tempo_anos >= 30) or (idade >= 60 and tempo_anos >= 25)
+print("Pode aposentar?", pode_concorrer)
